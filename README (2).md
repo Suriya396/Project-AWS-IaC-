@@ -33,6 +33,9 @@
 7. **Log Health Data in S3**
 
 ---
+## Diagram
+![diagram-export](https://github.com/user-attachments/assets/d20c030d-d4ed-4f9b-9de0-63bcc1c674c4)
+
 
 ## 🖥️ EC2 Instance Setup
 
