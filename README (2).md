@@ -184,16 +184,29 @@ def lambda_handler(event, context):
 ![Screenshot 2025-05-07 122029](https://github.com/user-attachments/assets/89090d60-2ae9-474f-9231-485aebe0fb96)
 ![Screenshot 2025-05-07 122029](https://github.com/user-attachments/assets/70db1d93-7e81-419e-821c-a27c4969de0f)
 
+[log_2025-05-07T06_39_26.932543.txt](https://github.com/user-attachments/files/20080867/log_2025-05-07T06_39_26.932543.txt)
 ## 🧾 Health Check Log Format
 
 Each log includes:
 
 ```json
-{
-  "InstanceId": "i-0abc123def456...",
-  "State": "running",
-  "StatusCheck": "ok",
-  "Timestamp": "2025-05-07T15:45:00Z"
-}
-
-[log_2025-05-07T06_39_26.932543.txt](https://github.com/user-attachments/files/20080867/log_2025-05-07T06_39_26.932543.txt)
+[
+  {
+    "InstanceId": "i-0cdba79e5a259a4f5",
+    "State": "terminated",
+    "StatusCheck": "not-applicable",
+    "Timestamp": "2025-05-07T06:39:26.932543Z"
+  },
+  {
+    "InstanceId": "i-0deb10f4e39c0d6c5",
+    "State": "running",
+    "StatusCheck": "ok",
+    "Timestamp": "2025-05-07T06:39:26.932543Z"
+  },
+  {
+    "InstanceId": "i-0cb444586fe44a7ef",
+    "State": "stopped",
+    "StatusCheck": "not-applicable",
+    "Timestamp": "2025-05-07T06:39:26.932543Z"
+  }
+]
